@@ -1,2 +1,10 @@
 <h2>Team: <%= @team_name %></h2>
 <h2>Team Motto: <%= @team_motto %></h2>
+
+<ul>
+<%= @team_members.each do |m|
+  <li><%= m.name %></li>
+  <li><%= m.power %></li>
+  <li><%= m.power %></li>
+  <%= end %>
+</ul>
