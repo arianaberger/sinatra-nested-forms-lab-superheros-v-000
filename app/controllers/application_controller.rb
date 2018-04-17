@@ -9,7 +9,7 @@ class App < Sinatra::Base
     end
 
     post '/' do
-      erb :tema
+      erb :team
     end
 
 
